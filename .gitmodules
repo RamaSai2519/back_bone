@@ -1,6 +1,6 @@
 [submodule "backend_amp/amplify/backend/function/scheduler/src/shared"]
 	path = backend_amp/amplify/backend/function/scheduler/src/shared
-	url = https://github.com/SukoonUnlimited/shared_sukoon.git
+	url = https://github.com/RamaSai2519/shared.git
 [submodule "backend_amp/amplify/backend/function/gamesProcessor/src/shared"]
 	path = backend_amp/amplify/backend/function/gamesProcessor/src/shared
-	url = https://github.com/SukoonUnlimited/shared_sukoon.git
+	url = https://github.com/RamaSai2519/shared.git
