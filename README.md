@@ -215,7 +215,7 @@ backend_amp/
 - `leads.py` - Lead management
 
 ### Models (API Endpoints)
-Over 100 specialized API endpoint implementations including:
+117 specialized API endpoint implementations including:
 - User operations (get, upsert, delete history)
 - Expert management (slots, timings, applicants, vacations)
 - Call handling (make call, webhooks, escalation)
@@ -244,7 +244,7 @@ This backend supports a comprehensive mental health platform enabling:
 ## 🚦 Getting Started
 
 ### Prerequisites
-- **Python 3.8+** (recommended: Python 3.9 or higher)
+- **Python 3.9 or higher** (minimum 3.8 supported, but 3.9+ recommended for best performance)
 - **AWS Account** with Amplify CLI configured
 - **MongoDB** instance (local or cloud-hosted like MongoDB Atlas)
 - **API Keys** and credentials for:
