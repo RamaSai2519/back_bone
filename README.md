@@ -244,10 +244,16 @@ This backend supports a comprehensive mental health platform enabling:
 ## 🚦 Getting Started
 
 ### Prerequisites
-- Python 3.x
-- AWS Account with Amplify access
-- MongoDB instance
-- Required API keys (OpenAI, Firebase, Slack, Cashfree, etc.)
+- **Python 3.8+** (recommended: Python 3.9 or higher)
+- **AWS Account** with Amplify CLI configured
+- **MongoDB** instance (local or cloud-hosted like MongoDB Atlas)
+- **API Keys** and credentials for:
+  - OpenAI API (for AI chat features)
+  - Firebase (for authentication and FCM)
+  - Slack (for notifications)
+  - Cashfree (for payment processing)
+  - WhatsApp Business API (for messaging)
+  - AWS credentials (for S3 and Lambda deployment)
 
 ### Installation
 ```bash
@@ -291,7 +297,7 @@ All responses follow a standardized output format with:
 
 ## 🌟 Highlights
 
-- **Scalable Architecture**: Serverless design handles variable load automatically
+- **Scalable Architecture**: AWS Lambda serverless design handles variable load automatically
 - **Comprehensive API**: 140+ endpoints covering all platform needs
 - **Real-time Processing**: Webhook integrations for instant updates
 - **Automated Jobs**: Scheduled tasks run independently without manual intervention
